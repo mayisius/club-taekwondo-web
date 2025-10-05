@@ -1,7 +1,7 @@
-# Club Deportivo Universitario - Página Web
+# Club de Taekwondo - Página Web
 
 ## Descripción
-Este proyecto corresponde a la **creación desde cero de la página web del Club Deportivo Universitario**, como parte de mi formación en Ingeniería de Telecomunicaciones.  
+Este proyecto corresponde a la **creación desde cero de la página web del Club de Taekwondo**, como parte de mi formación en Ingeniería de Telecomunicaciones.  
 El objetivo es aplicar conocimientos de **HTML y JavaScript**, integrar funcionalidades interactivas y organizar la información de manera clara y profesional.  
 
 ---
