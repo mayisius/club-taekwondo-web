@@ -1,200 +1,177 @@
-<!DOCTYPE html>
-// este archivo usa HTML5
-<html lang="es"> // idioma español
+<!DOCTYPE html> <!-- este archivo usa HTML5 -->
+<html lang="es"> <!-- idioma español -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club Taekwondo Villanueva del Pardillo</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Club Taekwondo Villanueva del Pardillo</h1>
-        <nav> // barra de navegación
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="#clases">Horarios</a></li>
-                <li><a href="historial">Nuestra Historia</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="branding d-flex align-items-center">
+            <div class="titulo position-relative d-flex align-items-center justify-content-between">
+                <!-- Logo y nombre -->
+                <a href="index.html" class="logo d-flex align-items-center me-3">
+                    <img src="images/logo_club.jpeg" alt="Logo del Club Taekwondo Villanueva del Pardillo" class="logo-img">
+                    <span class="club-name">Club Taekwondo Villanueva del Pardillo</span>
+                </a>
+            </div>
+        </div>
+    </div>
 
-    <section id="inicio">
-        <h2>Bienvenidos al Club Taekwondo Villanueva</h2>
-        <p>¡Este año, celebramos 20 años promoviendo el deporte y la amistad! ¡Únete a nuestra comunidad y aprende Taekwondo con nosotros!</p>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Bienvenidos al Club Taekwondo Villanueva</h2>
+            <p>¡Este año, celebramos 20 años promoviendo el deporte y la amistad! Únete a nuestra comunidad y aprende Taekwondo con nosotros.</p>
+        </div>
     </section>
 
-    <section id="sobre-nosotros">
-        <h2>Sobre Nosotros</h2>
-        <p>Somos un grupo de niños, adolescentes, jóvenes, adultos y padres que está aprendiendo a querer el taekwondo en todas sus formas:</p>
-        <ul>
-            <li>
-                <strong>Defensa personal:</strong> aprendemos técnicas prácticas para protegernos en situaciones reales, siempre desde el respeto y la responsabilidad.
-            </li>
-            <li>
-                <strong>Forma (Poomsae):</strong> perfeccionamos movimientos y secuencias que combinan precisión, control y equilibrio.
-            </li>
-            <li>
-                <strong>Combate (Kyorugi):</strong> entrenamos estrategias de competición, velocidad y control del cuerpo para desarrollar reflejos y confianza.
-            </li>
-            <li>
-                <strong>Romper tablas (Gyeokpa):</strong> trabajamos la concentración, la fuerza y la determinación mediante demostraciones de rompimiento.
-            </li>
-            <li>
-                <strong>Disciplina y respeto:</strong> los profesores se esfuerzan por fomentar los valores esenciales que trascienden el tatami y acompañan a cada estudiante en su vida diaria, de todas las edades.
-            </li>
-            <li>
-                <strong>Competición:</strong> participamos en torneos locales, nacionales e internacionales, aprendiendo a competir de manera justa y a mejorar continuamente, alcanzando el propio campeonato del mundo. 
-            </li>
-            <li>
-                <strong>Comunidad:</strong> formamos un grupo unido que apoya y celebra los logros de cada miembro, creando amistades duraderas y un ambiente positivo.
-            </li>
-        </ul>
-        <p>Ven a conocernos y descubre cómo el taekwondo puede transformar tu vida.</p>
+    <!-- SECCIONES CON TARJETAS EXPANDIBLES -->
+    <section class="sections-grid">
+        <div class="section-card" id="sobre-nosotros">
+            <div class="card-header">
+                <h3>Sobre Nosotros</h3>
+                <p>Conoce nuestra historia y filosofía.</p>
+            </div>
+            <div class="card-body">
+                <p>Somos un grupo de niños, adolescentes, jóvenes, adultos y padres que está aprendiendo a querer el taekwondo en todas sus formas:</p>
+                <ul>
+                    <li><strong>Defensa personal:</strong> aprendemos técnicas prácticas para protegernos en situaciones reales, siempre desde el respeto y la responsabilidad.</li>
+                    <li><strong>Forma (Poomsae):</strong> perfeccionamos movimientos y secuencias que combinan precisión, control y equilibrio.</li>
+                    <li><strong>Combate (Kyorugi):</strong> entrenamos estrategias de competición, velocidad y control del cuerpo para desarrollar reflejos y confianza.</li>
+                    <li><strong>Romper tablas (Gyeokpa):</strong> trabajamos la concentración, la fuerza y la determinación mediante demostraciones de rompimiento.</li>
+                    <li><strong>Disciplina y respeto:</strong> fomentamos valores esenciales que trascienden el tatami y acompañan a cada estudiante en su vida diaria.</li>
+                    <li><strong>Competición:</strong> participamos en torneos locales, nacionales e internacionales, aprendiendo a competir de manera justa y a mejorar continuamente.</li>
+                    <li><strong>Comunidad:</strong> formamos un grupo unido que celebra los logros de cada miembro, creando amistades duraderas y un ambiente positivo.</li>
+                </ul>
+                <p>Ven a conocernos y descubre cómo el taekwondo puede transformar tu vida.</p>
+            </div>
+        </div>
 
-    <section id="clases">
-        <h2>Horarios</h2>
-        <ul>
-            <li>Clases para niños (4-7 años): 17:30-18:30</li>
-            <li>Clases para cadetes (8-11 años): 18:30-19:30</li>
-            <li>Clases para adolescentes (12-15 años): 19:30-20:30</li>
-            <li>Clases para adultos (16+ años): 20:30-21:30</li>
-            <li>Entrenamiento avanzado y preparación extra para competiciones: findes de semana, horario flexible. </li>
-        </ul>
+        <div class="section-card" id="clases">
+            <div class="card-header">
+                <h3>Clases y Horarios</h3>
+                <p>Consulta los niveles, edades y horarios disponibles.</p>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li><strong>Infantil (4-7 años):</strong> 17:30-18:30</li>
+                    <li><strong>Cadetes (8-11 años):</strong> 18:30-19:30</li>
+                    <li><strong>Juvenil (12-15 años):</strong> 19:30-20:30</li>
+                    <li><strong>Adultos (16+ años):</strong> 20:30-21:30</li>
+                    <li><strong>Entrenamiento avanzado y preparación para competiciones:</strong> horario flexible los fines de semana.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section-card" id="historial">
+            <div class="card-header">
+                <h3>Nuestra Historia</h3>
+                <p>Revive nuestros logros y momentos destacados.</p>
+            </div>
+            <div class="card-body">
+                <p>Explora nuestra librería digital con recuerdos y fotos de temporadas anteriores:</p>
+                <div class="slideshow-container">
+                    <div class="slide fade"><img src="images/2015_evento1.jpg" alt="Evento X"></div>
+                    <div class="slide fade"><img src="images/2015_evento2.jpg" alt="Evento Y"></div>
+                    <div class="slide fade"><img src="images/2015_evento3.jpg" alt="Evento Z"></div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-card" id="contacto">
+            <div class="card-header">
+                <h3>Contacto</h3>
+                <p>¿Quieres unirte o colaborar con nosotros? Escríbenos.</p>
+            </div>
+            <div class="card-body">
+                <!-- formulario de contacto simple -->
+                <form action="https://formspree.io/f/mgvnznvv" method="POST" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Tu Nombre:</label>
+                        <input type="text" id="name" name="name" required placeholder="Introduce tu nombre">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Tu Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required placeholder="Introduce tu correo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Escribe tu mensaje..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Enviar</button>
+                </form>
+            </div>
+        </div>
     </section>
 
-    <section id="historial">
-        <h2>Nuestra Historia</h2>
-        <p>Fundado en 2005, el Club Taekwondo Villanueva del Pardillo ha crecido hasta convertirse en una comunidad vibrante de practicantes de todas las edades. A lo largo de los años, hemos participado en numerosos torneos y eventos, y hemos visto a muchos de nuestros miembros alcanzar altos niveles de habilidad y éxito competitivo. A continuación, os exponemos nuestra historia más reciente: </p>
-        <div class="temporadas-container">
-            <div class="temporada">
-                <h3>Temporada 2024-2025</h3>
-                <ul>
-                    <li>Participación en el Campeonato de España, logrando varios podios en diferentes categorías.</li>
-                    <li>Organización de un seminario con un maestro internacional de Taekwondo.</li>
-                    <li>Implementación de nuevas clases de defensa personal para mujeres.</li>
-                </ul>
-            </div>
-            <div class="temporada">
-                <h3>Temporada 2023-2024</h3>
-                <ul>
-                    <li>Participación en el Campeonato de España, logrando varios podios en diferentes categorías.</li>
-                    <li>Organización de un seminario con un maestro internacional de Taekwondo.</li>
-                    <li>Implementación de nuevas clases de defensa personal para mujeres.</li>
-                </ul>
-            </div>
-            <div class="temporada">
-                <h3>Temporada 2022-2023</h3>
-                <ul>
-                    <li>Campeonato regional con excelentes resultados para nuestros competidores.</li>
-                    <li>Inauguración de una nueva sala de entrenamiento equipada con tecnología avanzada.</li>
-                    <li>Inicio de un programa de becas para jóvenes talentos.</li>
-                </ul>
-            </div>
-            <div class="temporada">
-                <h3>Temporada 2021-2022</h3>
-                <ul>
-                    <li>Retorno a las competiciones tras la pandemia, con una destacada participación en eventos locales.</li>
-                    <li>Lanzamiento de clases virtuales para mantener el entrenamiento durante los confinamientos.</li>
-                    <li>Celebración del 15º aniversario del club con una exhibición especial y actividades comunitarias.</li>
-                </ul>
-            </div>
-            <h2>Para los años anteriores a 2021</h2>
-            <p>Explora nuestra librería digital con recuerdos y fotos de todas las temporadas anteriores:</p>
-            <div class="slideshow-container">
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                <div class="slide fade">
-                    <img src="images/2015_evento1.jpg" alt="Evento X">
-                </div>
-                // añadir más imágenes según sea necesario
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!-- SECCIONES DETALLADAS -->
+    <section id="opiniones" class="review-section">
+        <h2>¡Deja una opinión sobre tu experiencia!</h2>
+        <div class="stars">
+            <span data-value="1">★</span>
+            <span data-value="2">★</span>
+            <span data-value="3">★</span>
+            <span data-value="4">★</span>
+            <span data-value="5">★</span>
+        </div>
+        <p id="average-rating">Valoración media: 0 ⭐</p>
 
-            </div>
-
-            <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-                <span class="dot" onclick="currentSlide(4)"></span> 
-                <span class="dot" onclick="currentSlide(5)"></span> 
-                <span class="dot" onclick="currentSlide(6)"></span> 
-                <span class="dot" onclick="currentSlide(7)"></span> 
-                <span class="dot" onclick="currentSlide(8)"></span> 
-                <span class="dot" onclick="currentSlide(9)"></span> 
-                <span class="dot" onclick="currentSlide(10)"></span>
-                // añadir más puntos según sea necesario
-    </section>
-
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>¿Quieres unirte o colaborar con nosotros? Escríbenos:</p>
-        // formulario de contacto simple
-        <form action="https://formspree.io/f/mgvnznvv" method="POST">
-            <label for="name">Tu Nombre:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Tu Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
+        <form id="review-form">
+            <textarea id="review-text" rows="3" placeholder="Escribe tu comentario aquí..." required></textarea>
             <button type="submit">Enviar</button>
         </form>
-        <p>Para más información:</p>
-        <ul>
-            <li>
-                <strong>Dónde encontrarnos:</strong> Carpe Diem, C/ del Río Ebro, Villanueva del Pardillo, Madrid.
-            </li>
-            <li>
-                <strong>Teléfono:</strong> +34 661 30 46 97
-            </li>
-            <li>
-                <strong>Correo:</strong>taekwondovvapardillo@gmail.com
-            </li>
-            <li>
-                <strong>Redes Sociales:</strong>
-                <ul>
-                    <li><a href="https://www.instagram.com/tkd_villanueva/" target="_blank">Instagram</a></li>
-                    <li><a href="https://www.facebook.com/taekwondoVva.Pardillo/?locale=es_ES" target="_blank">Facebook</a></li>
-                    <li><a href="https://x.com/tkd_villanueva" target="_blank">X (previamente Twitter)</a></li>
-                </ul>
-            </li>
+
+        <div class="bubbles-container"></div>
+
+        <div class="toggle-comments">
+            <label><input type="checkbox" id="toggleComments" checked> Mostrar comentarios</label>
+        </div>
     </section>
 
-    </footer>
+
+    <!-- <footer>
         <p>&copy; 2025 Club Taekwondo Villanueva del Pardillo. Todos los derechos reservados.</p>
+    </footer> -->
+
+    <footer class="footer">
+        <div class="contact-info">
+            <p>Para más información:</p>
+            <ul>
+                <li><strong>Dónde encontrarnos:</strong> Carpe Diem, C/ del Río Ebro, Villanueva del Pardillo, Madrid.</li>
+                <li><strong>Teléfono:</strong> +34 661 30 46 97</li>
+                <li><strong>Correo:</strong> taekwondovvapardillo@gmail.com</li>
+                <p>
+                    <li><strong>Redes Sociales:</strong>
+                        <ul>
+                            <li><a href="https://www.instagram.com/tkd_villanueva/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.facebook.com/taekwondoVva.Pardillo/?locale=es_ES" target="_blank">Facebook</a></li>
+                            <li><a href="https://x.com/tkd_villanueva" target="_blank">X (Twitter)</a></li>
+                        </ul>
+                    </li>
+                </p>
+            </ul>
+        </div>
+            <p>&copy; 2025 Club Taekwondo Villanueva del Pardillo. Todos los derechos reservados.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
+
 
