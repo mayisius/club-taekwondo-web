@@ -74,15 +74,22 @@
             </div>
             <div class="card-body">
                 <p>Explora nuestra librería digital con recuerdos y fotos de temporadas anteriores:</p>
+                <!-- SLIDESHOW -->
                 <div class="slideshow-container">
-                    <div class="slide fade"><img src="images/2015_evento1.jpg" alt="Evento X"></div>
-                    <div class="slide fade"><img src="images/2015_evento2.jpg" alt="Evento Y"></div>
-                    <div class="slide fade"><img src="images/2015_evento3.jpg" alt="Evento Z"></div>
+                    <div class="slide">
+                        <img src="images/IMG_6856.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/IMG_6881.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="images/IMG_6805.jpg" alt="">
+                    </div>
 
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 </div>
-
+                <!-- Puntos indicadores -->
                 <div style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
@@ -120,8 +127,8 @@
         </div>
     </section>
 
-    <!-- SECCIONES DETALLADAS -->
-    <section id="opiniones" class="review-section">
+    <!-- SECCIONES DETALLADAS PRE GOOGLE -->
+    <!-- <section id="opiniones" class="review-section">
         <h2>¡Deja una opinión sobre tu experiencia!</h2>
         <div class="stars">
             <span data-value="1">★</span>
@@ -142,6 +149,14 @@
         <div class="toggle-comments">
             <label><input type="checkbox" id="toggleComments" checked> Mostrar comentarios</label>
         </div>
+    </section> -->
+
+
+    <!-- Opiniones en Google (Elfsight) -->
+    <section class="elfsight-container">
+        <li></li>
+        <script src="https://elfsightcdn.com/platform.js" async></script>
+        <div class="elfsight-app-b35385b5-3ed1-4c8f-b21f-75f029947da8" data-elfsight-app-lazy></div>
     </section>
 
 
